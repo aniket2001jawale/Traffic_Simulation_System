@@ -21,4 +21,13 @@ The simulation helps visualize traffic behavior and analyze traffic flow.
    ```bash
    git clone https://github.com/aniket2001jawale/Traffic_Simulation_System.git
 
+2. Navigate to the folder:
+   cd trafficsimulation
+
+3. Compile the program:
+   g++ -std=c++17 main.cpp TrafficLight.cpp Vehicle.cpp Road.cpp Intersection.cpp -o TrafficSimulation.exe
+
+4. Run the simulation:
+   ./TrafficSimulation
+
 
